@@ -10,6 +10,9 @@
   padding: 160px 0;
   text-align: center;
 }
+.container {
+  max-width: 1200px;
+}
 .btn-brandin {
   background-color: var(--main-color);
   border-radius: 4px;
@@ -24,8 +27,20 @@
   background-color: var(--secondary-color);
   color: var(--main-color);
 }
+.btn-view-project {
+  border: 1px solid var(--main-color);
+  padding: 10px 20px;
+  font-family: var(--other-headline-fonts);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.row {
+  margin: 100px 10px;
+}
+
 h2,
-h3 {
+h3,
+h4,
+p {
   font-family: var(--other-headline-fonts);
 }
 h1 {
@@ -41,4 +56,11 @@ h3 {
   font-size: 36px;
   font-weight: 700;
   line-height: 54px;
+}
+h4 {
+  font-size: 64px;
+}
+p {
+  font-size: 22px;
+  opacity: 0.7;
 }
