@@ -34,7 +34,7 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .row {
-  margin: 100px 10px;
+  margin: 100px 0;
 }
 
 h2,
@@ -61,6 +61,9 @@ h4 {
   font-size: 64px;
 }
 p {
-  font-size: 22px;
+  font-size: 20px;
   opacity: 0.7;
+}
+.project-description {
+  padding: 60px 50px;
 }
