@@ -52,19 +52,31 @@
 .img-fluid {
   border-radius: 20px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
 }
-.about-section p {
+.content-container p {
   font-size: 16px;
   font-weight: normal;
 }
-.about-hero {
+.content {
   padding: 20px;
 }
+.content h1 {
+  font-size: 58px;
+  line-height: 80px;
+}
+.content h2 {
+  font-size: 35px;
+  padding: 10px;
+}
+.content p {
+  padding: 10px;
+}
+
 .hero-photo {
   padding: 20px;
   border-radius: 10px;
@@ -127,14 +139,14 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 50px;
   }
-  .about-section h2,
-  .about-section p {
+  .content-container h2,
+  .content-container p {
     font-size: smaller;
   }
   .hero-photo {
