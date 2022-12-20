@@ -52,7 +52,33 @@
 .img-fluid {
   border-radius: 20px;
 }
+.about-section h1 {
+  font-size: 64px;
+}
+.about-section h2 {
+  font-size: 18px;
+}
+.about-section p {
+  font-size: 16px;
+  font-weight: normal;
+}
+.about-hero {
+  padding: 20px;
+}
+.hero-photo {
+  padding: 20px;
+  border-radius: 10px;
+}
 
+.btn-primary {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+.btn-primary:hover {
+  color: var(--main-color);
+  background-color: white;
+  border-color: var(--main-color);
+}
 h2,
 h3,
 h4,
@@ -100,5 +126,20 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+  }
+  .about-section h1 {
+    font-size: 50px;
+  }
+  .about-section h2,
+  .about-section p {
+    font-size: smaller;
+  }
+  .hero-photo {
+    width: 300px;
+    padding: 0;
+    padding-top: 10px;
   }
 }
