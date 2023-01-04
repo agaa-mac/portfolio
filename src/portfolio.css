@@ -91,6 +91,15 @@
   background-color: white;
   border-color: var(--main-color);
 }
+.header-contact {
+  font-size: 64px;
+  font-family: var(--headline-font);
+  padding: 100px 100px 20px;
+}
+.content-contact {
+  padding: 0 100px;
+}
+
 h2,
 h3,
 h4,
@@ -156,5 +165,12 @@ p {
   }
   .content h1 {
     font-size: 40px;
+  }
+  .header-contact {
+    font-size: 50px;
+    text-align: center;
+  }
+  .content-contact {
+    text-align: center;
   }
 }
