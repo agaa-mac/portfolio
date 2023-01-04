@@ -99,7 +99,26 @@
 .content-contact {
   padding: 0 100px;
 }
-
+.nav-container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+nav li {
+  display: inline;
+  padding: 10px;
+}
+li a {
+  color: black;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+li a:hover {
+  color: var(--main-color);
+}
+nav li.active a {
+  color: var(--main-color);
+}
 h2,
 h3,
 h4,
