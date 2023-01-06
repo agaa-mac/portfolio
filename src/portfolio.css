@@ -22,6 +22,8 @@
   width: 200px;
   font-family: var(--other-headline-fonts);
   font-size: 18px;
+  color: white;
+  transition: all 300ms ease-in-out;
 }
 .btn-brandin:hover {
   background-color: var(--secondary-color);
@@ -33,6 +35,7 @@
   padding: 10px 20px;
   font-family: var(--other-headline-fonts);
   color: var(--main-color);
+  transition: all 200ms ease-in-out;
 }
 .btn-view-project:hover {
   border: 1px solid var(--main-color);
@@ -120,6 +123,38 @@ a:hover {
 }
 nav li.active a {
   color: var(--main-color);
+}
+.name {
+  font-family: var(--headline-font);
+  font-size: 25px;
+}
+footer .mail-link {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+footer .social-links {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.fa-brands {
+  font-size: 20px;
+  padding: 10px;
+  color: var(--main-color);
+  background-color: var(--third-color);
+  border-radius: 50%;
+  margin: 20px;
+}
+.fa-brands:hover {
+  color: white;
+  background-color: var(--main-color);
+}
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 40px 100px 20px;
 }
 h2,
 h3,
