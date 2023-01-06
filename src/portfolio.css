@@ -153,7 +153,6 @@ footer .social-links {
   display: flex;
   justify-content: space-between;
   background-color: var(--secondary-color);
-  border-radius: 10px;
   padding: 40px 100px 20px;
 }
 h2,
@@ -234,5 +233,13 @@ p {
   }
   .name {
     display: none;
+  }
+  .contact-box {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-box h3 {
+    font-size: 30px;
   }
 }
