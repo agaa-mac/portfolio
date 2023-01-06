@@ -132,7 +132,7 @@ nav li.active a {
 footer .mail-link {
   font-size: 20px;
   text-align: center;
-  padding: 10px;
+  padding: 30px 0 10px;
 }
 footer .social-links {
   text-align: center;
@@ -158,6 +158,10 @@ footer .social-links {
 }
 .footer-button {
   margin: 0px;
+}
+footer p {
+  text-align: center;
+  padding: 10px;
 }
 h2,
 h3,
