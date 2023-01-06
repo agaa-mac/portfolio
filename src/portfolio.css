@@ -100,7 +100,7 @@
   padding: 100px 100px 20px;
 }
 .content-contact {
-  padding: 0 100px;
+  padding: 0 100px 150px;
 }
 .nav-container {
   padding: 30px;
@@ -128,6 +128,7 @@ nav li.active a {
   font-family: var(--headline-font);
   font-size: 25px;
 }
+
 footer .mail-link {
   font-size: 20px;
   text-align: center;
@@ -154,6 +155,9 @@ footer .social-links {
   justify-content: space-between;
   background-color: var(--secondary-color);
   padding: 40px 100px 20px;
+}
+.footer-button {
+  margin: 0px;
 }
 h2,
 h3,
